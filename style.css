@@ -1,15 +1,44 @@
 body{
-    width: 1200px;
+    width: 100%;
     margin: auto;
-    font-family: 'Tourney', cursive;
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Tourney', cursive;*/
 }
 .hero {
 /*    background-image: url(images/my-bg2.png); */
-background-color: aquamarine;
+margin: 0 5%;
+display: flex;
 }
 
-
-.hero-left, .hero-right {
-    width: 50%;
+.hero-left {
+    width: 42%;
+    padding: 0 3%;
     float: left;
+    margin: auto;
+}
+.hero-right {
+    width: 42%;
+    padding: 0 3%;
+    float: left;
+}
+h1 {
+    font-size: 50px;
+    line-height: 55px;
+    margin: 5px 0;
+}
+
+.name-color {
+    color: orange;
+}
+
+.hero-right img {
+    width: 70%;
+    float: right;
+}
+
+.btn-hire {
+    padding: 10px 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: orange;
 }
