@@ -1,0 +1,10 @@
+body{
+    width: 1200px;
+    margin: auto;
+    font-family: 'Tourney', cursive;
+}
+
+.hero-left, .hero-right {
+    width: 50%;
+    float: left;
+}
