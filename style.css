@@ -3,6 +3,11 @@ body{
     margin: auto;
     font-family: 'Tourney', cursive;
 }
+.hero {
+/*    background-image: url(images/my-bg2.png); */
+background-color: aquamarine;
+}
+
 
 .hero-left, .hero-right {
     width: 50%;
