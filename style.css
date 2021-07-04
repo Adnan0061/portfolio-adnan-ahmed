@@ -1,13 +1,17 @@
 body{
     width: 100%;
-    margin: auto;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     /*font-family: 'Tourney', cursive;*/
 }
 .hero {
 /*    background-image: url(images/my-bg2.png); */
-margin: 0 5%;
+padding: 0 5%;
 display: flex;
+background-image: url(images/top-banner.png);
+background-size: contain;
+background-repeat: no-repeat;
+
 }
 
 .hero-left {
@@ -32,7 +36,7 @@ h1 {
 }
 
 .hero-right img {
-    width: 70%;
+    width: 90%;
     float: right;
 }
 
@@ -45,4 +49,8 @@ h1 {
     color: #fff;
     font-size: 22px;
     font-weight: 500;
+}
+
+.hero-left p {
+    margin-bottom: 40px;
 }
