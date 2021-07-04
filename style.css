@@ -5,13 +5,11 @@ body{
     /*font-family: 'Tourney', cursive;*/
 }
 .hero {
-/*    background-image: url(images/my-bg2.png); */
 padding: 0 5%;
 display: flex;
 background-image: url(images/top-banner.png);
 background-size: contain;
 background-repeat: no-repeat;
-
 }
 
 .hero-left {
@@ -36,7 +34,7 @@ h1 {
 }
 
 .hero-right img {
-    width: 90%;
+    width: 80%;
     float: right;
 }
 
@@ -52,5 +50,45 @@ h1 {
 }
 
 .hero-left p {
+    margin-bottom: 40px;
+}
+
+.dream {
+    margin-top: 100px;
+    padding: 0 5%;
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}    
+.dream-left {
+    width: 42%;
+    padding: 0 3%;
+    float: left;
+    margin: auto;
+}
+.dream-right {
+    width: 42%;
+    padding: 0 3%;
+    float: left;
+    margin: auto;
+}
+.btn-resume {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, #FF9873, #FF684C);
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.dream-left img {
+    width: 80%;
+    float: left;
+}
+
+.dream-right p {
     margin-bottom: 40px;
 }
